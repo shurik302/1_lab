@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;900&family=PT+Sans&family=Secular+One&display=swap');
 
-/* 
-font-family: 'Fira Sans Condensed', sans-serif; 300, 400, 900 для заголовков
-font-family: 'PT Sans', sans-serif; 400 для обычного текста
-font-family: 'Secular One', sans-serif; 400 для логотипа
-*/
-
 body {
   font-family: 'PT Sans', sans-serif;
   font-weight: 400;
@@ -709,14 +703,10 @@ body {
   .menu-icon {
     display: block;
     grid-area: menu-icon;
-    /* justify-self: end; */
   }
 
   .header--mobile {
     min-height: 100vh;
-
-    /* Я переключился и совсем забыл добавить лупе max-content
-    и указать колонки. Можно указать по 1fr, можно указать auto. */
     grid-template: "logo menu-icon" max-content
       "nav nav" max-content
       "search search" max-content / auto;
@@ -754,8 +744,6 @@ body {
 button {
   -webkit-tap-highlight-color: transparent;
 }
-
-
 
 .slider-arrows__item,
 .slider-dots__item {
