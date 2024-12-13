@@ -36,7 +36,6 @@ img, svg, video {
   object-fit: cover;
 }
 
-/* Form */
 input, textarea, button, select {
   font-family: inherit;
   font-size: inherit;
